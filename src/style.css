@@ -1,0 +1,79 @@
+
+.social-icons {
+    display: inline-block !important;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .icon-colour {
+    color: #700c86 !important;
+  }
+  
+  .footer {
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important ;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(184, 219, 239);
+  }
+  .footer-copywright {
+    text-align: center !important;
+  }
+  
+  .footer-body {
+    z-index: 1;
+    text-align: center !important;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-copywright {
+      text-align: center !important;
+    }
+  
+    .footer-body {
+      text-align: center !important;
+    }
+  }
+  
+  .footer h3 {
+    font-size: 1em;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  }
+  .footer-icons {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    padding: 0 !important;
+  }
+  
+  .blockquote-footer {
+    color: #a588c0 !important;
+  }
+  
+  .Typewriter__wrapper {
+    font-size: 2.2em !important;
+    color: #be6adf !important;
+    font-weight: 600 !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #b562d6 !important;
+  }
+  /* .App{
+    z-index: 1;
+    background-color: rgb(160, 252, 249);
+  } */
+  .particles-bg-canvas-self{
+    background: rgb(184, 219, 239);
+  }
+  .display-card{
+    transition: 0.2s;
+  }
+  .display-card:hover{
+    scale: 1.05;
+  }
+  .project{
+    border: 1px black solid;
+    border-radius: 20px;
+  }
