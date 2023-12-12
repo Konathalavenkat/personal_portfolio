@@ -4,7 +4,7 @@ function About(){
 
     return (
         <Container className="justify-center-align">
-            <Row>
+            <Row style={{paddingBottom:"100px"}}>
                 <Col sm={0} md={2}>
                     
                 </Col>

@@ -13,8 +13,8 @@ function Project(){
                             <Col sm={2} md={1}  className="p-1 mx-1 text-center display-card " style={{border:"2px black solid",borderRadius:"50px"}} >React</Col>
                             <Col sm={2} md={1}  className="p-1 mx-1 text-center display-card " style={{border:"2px black solid",borderRadius:"50px"}} >Express</Col>
                             <Col sm={2} md={1}  className="p-1 mx-1 text-center display-card " style={{border:"2px black solid",borderRadius:"50px"}} >Node</Col>
-                            <Col sm={2} md={1}  className="p-1 mx-1 text-center display-card " style={{border:"2px black solid",borderRadius:"50px"}} >MongoDB</Col>
-                            <Col sm={2} md={1}  className="p-1 mx-1 text-center display-card " style={{border:"2px black solid",borderRadius:"50px"}} >Bootstrap</Col>
+                            <Col sm={2} md={2}  className="p-1 mx-1 text-center display-card " style={{border:"2px black solid",borderRadius:"50px"}} >MongoDB</Col>
+                            <Col sm={2} md={2}  className="p-1 mx-1 text-center display-card " style={{border:"2px black solid",borderRadius:"50px"}} >Bootstrap</Col>
                             <Col sm={2} md={1}  className="p-1 mx-1 text-center display-card " style={{border:"2px black solid",borderRadius:"50px"}} >CSS</Col>
                         </Row>
                         <br/>
