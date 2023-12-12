@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import ParticlesBg from 'particles-bg'
 import About from './components/About/About';
 import Project from './components/Projects/Project';
+import Skills from './components/Skills/Skills';
 import './style.css';
 function App() {
   const particleJsConfig = {
@@ -25,6 +26,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />}/>
           <Route path='/Projects' element={<Project/>}/>
+          <Route path='/Skills' element={<Skills/>}/>
+          
         </Routes>
       </HashRouter>
       <Footer style={{ position: 'fixed', bottom: 0, width: '100%'}} />

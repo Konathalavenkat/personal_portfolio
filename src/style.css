@@ -15,7 +15,8 @@
     padding-bottom: 8px !important ;
     position: fixed;
     bottom: 0;
-    background-color: rgb(184, 219, 239);
+    /* background-color: rgb(184, 219, 239); */
+    background-color: #83C9F4;
   }
   .footer-copywright {
     text-align: center !important;
@@ -53,22 +54,24 @@
   
   .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #be6adf !important;
+    color: #016FB9 !important;
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #b562d6 !important;
+    color: #016FB9!important;
   }
   /* .App{
     z-index: 1;
     background-color: rgb(160, 252, 249);
   } */
   .particles-bg-canvas-self{
-    background: rgb(184, 219, 239);
+    /* background: rgb(184, 219, 239); */
+    background: #83C9F4
   }
   .display-card{
     transition: 0.2s;
+    background-color: #99D8FF
   }
   .display-card:hover{
     scale: 1.05;
@@ -76,4 +79,32 @@
   .project{
     border: 1px black solid;
     border-radius: 20px;
+  }
+  .tech-icons {
+    font-size: 3em !important;
+    padding: 5px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid rgba(255, 255, 255, 0.637) !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    box-shadow: 4px 5px 4px 3px rgba(255, 255, 255, 0.137) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+  
+  @media (max-width: 767px) {
+    .tech-icons {
+      margin: 10px !important;
+    }
+  }
+  
+  .tech-icons:hover {
+    transform: scale(1.05) !important;
+    overflow: hidden !important;
+    border: 2.2px solid rgba(255, 255, 255, 1) !important;
+  }
+  .tech-icon-images {
+    padding: 20px !important;
+    line-height: 1.6 !important;
   }
