@@ -7,6 +7,7 @@ import ParticlesBg from 'particles-bg'
 import About from './components/About/About';
 import Project from './components/Projects/Project';
 import Skills from './components/Skills/Skills';
+import Contact from './components/contact';
 import './style.css';
 function App() {
   const particleJsConfig = {
@@ -27,6 +28,7 @@ function App() {
           <Route path='/About' element={<About />}/>
           <Route path='/Projects' element={<Project/>}/>
           <Route path='/Skills' element={<Skills/>}/>
+          <Route path='/contact' element={<Contact/>}/>
           
         </Routes>
       </HashRouter>
