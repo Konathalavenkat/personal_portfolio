@@ -13,6 +13,7 @@ function Contact(){
           .then((res) => {
             if (res.status === 200) {
               alert("Sent successfully");
+              setTimeout(()=>{window.location.href="#/"},1)
             }
           })
           .catch((err) => console.log(err));
@@ -23,9 +24,9 @@ function Contact(){
         <div className="contact-form-container">
             <h2 className="text-center">Contact Us</h2>
             <Row>
-                <Col sm={0} md={2}></Col>
-                <Col sm={12} md={8}>
-                    <Row className="form-group">
+                <Col xs={1} sm={1} md={2}></Col>
+                <Col sm={10} md={8}>
+                    <Row className="form-group mx-3">
                       <Col sm={12} className="text-start my-3 h4">Name</Col>
                         <Col sm={12}>
                             <input
@@ -39,7 +40,7 @@ function Contact(){
                         </Col>
                     </Row>
 
-                    <Row className="form-group">
+                    <Row className="form-group mx-3">
                     <Col sm={12} className="text-start my-3 h4">Email</Col>
                         <Col sm={12}>
                             <input
@@ -53,7 +54,7 @@ function Contact(){
                         </Col>
                     </Row>
 
-                    <Row className="form-group">
+                    <Row className="form-group mx-3">
                             <Col sm={12} className="text-start my-3 h4">Message</Col>
                         <Col sm={12}>
                                 <textarea
@@ -67,10 +68,10 @@ function Contact(){
                     </Row>
 
                     <Row className="justify-content-center">
-                        <button className="col-1 btn btn-success m-5 text-center" onClick={handleSubmit}>Submit</button>
+                        <button className="col-xs-2 col-sm-2 col-md-1 btn btn-success m-5 text-center" onClick={handleSubmit}>Submit</button>
                     </Row>
                 </Col>
-                <Col sm={0} md={2}></Col>
+                <Col xs={1} sm={1} md={2}></Col>
             </Row>
       
         </div>
