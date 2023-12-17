@@ -1,4 +1,4 @@
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Button } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
@@ -120,7 +120,9 @@ function Skills(){
 
                 </Row> */}
             </Row>
-            
+            <div className="d-flex justify-content-center" style={{paddingBottom:"70px"}}>
+              <Button onClick={()=>{window.location.href="#/Certifications"}}>Certifications</Button>
+            </div>
         </>
     )
 }

@@ -17,7 +17,7 @@ const Resume = () => {
         width={'40%'}
         height="1080px"
         style={{paddingTop:"50px",paddingBottom:"50px"}}
-        className='col-md-5 col-xs-11'
+        className='col-lg-5 col-md-7 col-sm-9 col-xs-11'
       ></iframe> 
       </Row>
     </div>

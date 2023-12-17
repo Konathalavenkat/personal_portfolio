@@ -4,7 +4,7 @@ function Header(){
     return (
         <Navbar collapseOnSelect expand="md" id="header" style={{position:"sticky",top:"0"}}>
             <Container fluid>
-                <NavbarBrand onClick={()=>{window.location.href="/#/"}}>{"<Venkat />"}</NavbarBrand>
+                <NavbarBrand onClick={()=>{window.location.href="/#/"}}>{"Venkat"}</NavbarBrand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id='responsive-navbar-nav' className='justify-content-end mx-3'>
                     <Nav >
