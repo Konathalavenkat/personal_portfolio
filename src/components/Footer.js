@@ -36,7 +36,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaCode className="text-dark"/>
+                <img src="https://drive.google.com/uc?id=13EYdMQFXtvp_IKevxBJ1XNbg_l1IHnZW" width={"16px"}/>
               </a>
             </li>
             <li className="social-icons">
