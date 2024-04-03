@@ -1,5 +1,9 @@
 #header{
-  background-color: #83C9F4;
+  background-color: #000000;
+  color: white;
+}
+*{
+  color: white !important;
 }
 .social-icons {
     display: inline-block !important;
@@ -18,7 +22,7 @@
     position: fixed;
     bottom: 0;
     /* background-color: rgb(184, 219, 239); */
-    background-color: #83C9F4;
+    background-color: #101010;
   }
   .footer-copywright {
     text-align: center !important;
@@ -69,17 +73,18 @@
   } */
   .particles-bg-canvas-self{
     /* background: rgb(184, 219, 239); */
-    background: #83C9F4
+    background: #000000
   }
   .display-card{
     transition: 0.2s;
-    background-color: #99D8FF
+    background-color: #ffffff;
+    color: black !important;
   }
   .display-card:hover{
     scale: 1.05;
   }
   .project{
-    border: 1px black solid;
+    border: 1px white solid;
     border-radius: 20px;
   }
   .tech-icons {

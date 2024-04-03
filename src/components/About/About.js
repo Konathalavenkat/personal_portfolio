@@ -18,9 +18,9 @@ function About(){
                     <br/>
                     <h3 className="text-center fs-3">Education</h3>
                     <Row>
-                        <Col className="p-1 mx-1 text-center fw-bolder display-card" style={{border:"2px black solid",borderRadius:"10px"}} >B.tech CSE<br/>VIT-AP University<br/>2021-present<br/>current CGPA: 9.44</Col>
-                        <Col className="p-1 mx-1 text-center fw-bolder display-card" style={{border:"2px black solid",borderRadius:"10px"}} >Intermediate<br/>Hindustan Junior College<br/>2019-21<br/>Marks: 969/1000</Col>
-                        <Col className="p-1 mx-1 text-center fw-bolder display-card" style={{border:"2px black solid",borderRadius:"10px"}} >10th Standard<br/>Sri Chaithanya School<br/>2019<br/>GPA: 9.8</Col>
+                        <Col className="p-1 mx-1 text-center fw-bolder display-card" style={{border:"2px white solid",borderRadius:"10px"}} >B.tech CSE<br/>VIT-AP University<br/>2021-present<br/>current CGPA: 9.44</Col>
+                        <Col className="p-1 mx-1 text-center fw-bolder display-card" style={{border:"2px white solid",borderRadius:"10px"}} >Intermediate<br/>Hindustan Junior College<br/>2019-21<br/>Marks: 969/1000</Col>
+                        <Col className="p-1 mx-1 text-center fw-bolder display-card" style={{border:"2px white solid",borderRadius:"10px"}} >10th Standard<br/>Sri Chaithanya School<br/>2019<br/>GPA: 9.8</Col>
                     </Row>
                     <br/>
                     <h3 className="text-center fs-3">Hobbies</h3>
