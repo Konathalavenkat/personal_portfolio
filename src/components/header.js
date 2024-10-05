@@ -13,7 +13,7 @@ function Header(){
                         <Nav.Link className='text-decoration-none' onClick={()=>{window.location.href="/#/Projects"}}>Projects</Nav.Link>
                         <Nav.Link className='text-decoration-none' onClick={()=>{window.location.href="/#/Skills"}}>Skills</Nav.Link>
                         <Nav.Link className='text-decoration-none' onClick={()=>{window.location.href="/#/Resume"}}>Resume</Nav.Link>
-                        
+                        <Nav.Link className='text-decoration-none' onClick={()=>{window.location.href='/#/Certifications'}}>Certificates</Nav.Link>
                         <Button className='btn-primary' onClick={()=>{window.location.href="/#/contact"}}>Contact</Button>
                     </Nav>
                 </Navbar.Collapse>

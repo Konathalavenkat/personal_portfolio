@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Button, Col, Row } from "react-bootstrap";
-
+import Certificate from "./Certificate";
 function Certifications(){
+    const [i1,seti1] = useState(false)
     const [c1,setc1] = useState(false);
     const [c2,setc2] = useState(false);
     const [c3,setc3] =useState(false);
@@ -57,6 +58,7 @@ function Certifications(){
                         {c6 && <iframe src="https://drive.google.com/file/d/1M05-qwqvaV_FhQMHtrLZFA3Ie5v4uTBU/preview" width="640" height="480" allow="autoplay"></iframe>}
                     </div>
                 </div>
+                <Certificate certname={"7. NodeJs Udemy Course"} embedlink={`https://drive.google.com/file/d/1WSzuBfzsnmztqEKTfuzPFq9XP7gpHMGz/preview`} link={"https://drive.google.com/uc?export=download&id=1WSzuBfzsnmztqEKTfuzPFq9XP7gpHMGz"} />
                 </Col>
                 <Col xs={0} md={2}>
                 
