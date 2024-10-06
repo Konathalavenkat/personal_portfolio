@@ -58,7 +58,8 @@ function Certifications(){
                         {c6 && <iframe src="https://drive.google.com/file/d/1M05-qwqvaV_FhQMHtrLZFA3Ie5v4uTBU/preview" width="640" height="480" allow="autoplay"></iframe>}
                     </div>
                 </div>
-                <Certificate certname={"7. NodeJs Udemy Course"} embedlink={`https://drive.google.com/file/d/1WSzuBfzsnmztqEKTfuzPFq9XP7gpHMGz/preview`} link={"https://drive.google.com/uc?export=download&id=1WSzuBfzsnmztqEKTfuzPFq9XP7gpHMGz"} />
+                <Certificate certname={"7. NodeJs Udemy Course"} id={"1WSzuBfzsnmztqEKTfuzPFq9XP7gpHMGz"} />
+                <Certificate certname={"8. Intraintech AIML Internship"} id={"1YkLvx8e2Xdw8XICxkxyTIRChPE9K9Zwm"} />
                 </Col>
                 <Col xs={0} md={2}>
                 
